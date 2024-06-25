@@ -21,8 +21,8 @@ DBUSER=mailcow
 
 # Please use long, random alphanumeric strings (A-Za-z0-9)
 
-DBPASS=0SGgddBA2a10H9O75xJgH4HrIlWS
-DBROOT=ntQ8AwXeCceM4t3y7tMx1IZSjneW
+DBPASS=VzHgPH1hcjSwDLU27Yta1SRa3p3v
+DBROOT=L0PdVb31G1KYTj1ME1WbnsvvE6fh
 
 # ------------------------------
 # HTTP/S Bindings
@@ -37,11 +37,11 @@ DBROOT=ntQ8AwXeCceM4t3y7tMx1IZSjneW
 # For IPv4 leave it as it is: HTTP_BIND= & HTTPS_PORT=
 # For IPv6 see https://docs.mailcow.email/post_installation/firststeps-ip_bindings/
 
-HTTP_PORT=8080
-HTTP_BIND=0.0.0.0
+HTTP_PORT=80
+HTTP_BIND=
 
 HTTPS_PORT=443
-HTTPS_BIND=0.0.0.0
+HTTPS_BIND=
 
 # ------------------------------
 # Other bindings
@@ -66,7 +66,7 @@ REDIS_PORT=127.0.0.1:7654
 # See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for a list of timezones
 # Use the column named 'TZ identifier' + pay attention for the column named 'Notes'
 
-TZ=America/Sao_Paulo
+TZ=America/Brasilia
 
 # Fixed project name
 # Please use lowercase letters only
@@ -122,7 +122,7 @@ ADDITIONAL_SERVER_NAMES=
 
 # Skip running ACME (acme-mailcow, Let's Encrypt certs) - y/n
 
-SKIP_LETS_ENCRYPT=y
+SKIP_LETS_ENCRYPT=n
 
 # Create seperate certificates for all domains - y/n
 # this will allow adding more than 100 domains, but some email clients will not be able to connect with alternative hostnames
